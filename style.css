@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5b5b5b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+.displaytime{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 35px;
+}
+.buttons{
+    margin: 10px 0px;
+}
+.buttons button{
+    margin: 0px 15px;
+    background-color: #1f721c;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
