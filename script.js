@@ -25,8 +25,12 @@ stopbtn.addEventListener("click", function () {
 
 resetbtn.addEventListener("click", function () {
   clearInterval(timer);
+  milisec = 0; 
+  sec = 0;    
+  min = 0;  
   displaytime.innerHTML = `00 : 00 : 00`;
 });
+
 
 function starttimer() {
   milisec++;
